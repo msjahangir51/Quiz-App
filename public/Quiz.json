@@ -1,0 +1,272 @@
+[
+    {
+        "id" : 1,   
+        "Question" : "What does DOM stand for in JavaScript?",
+        "option1" : "Document Object Model",
+        "option2" :"Data Object Model",
+        "option3" : " Dynamic Object Manipulation",
+        "option4" : "Document Operation Module",
+        "ans" : 1
+    },
+    {
+        "id" : 2,
+        "Question" : "Which keyword is used to declare variables in JavaScript?",
+        "option1" : "var",
+        "option2" :"let",
+        "option3" : "const",
+        "option4" : "all of the above",
+        "ans" : 4
+    },
+    {
+        "id" : 3,
+        "Question" : "What is the purpose of the \"type of\" operator in JavaScript",
+        "option1" : "It checks the type of a vanable",
+        "option2" :" It converts a variable to a specific type",
+        "option3" : " It creates a new variable",
+        "option4" : "It removes a variable from memory",
+        "ans" :1
+    },
+    {
+        "id" : 4,
+        "Question" : "What is an anonymous function in JavaScript?",
+        "option1" : "A function without a name",
+        "option2" :"A function that doesn't return anything",
+        "option3" : "A function with a single parameter",
+        "option4" : " A function with an unknown number of arguments",
+        "ans" :1
+    },
+    {
+        "id" : 5,
+        "Question" : "What is the output of \"console.log(1 + '2')\"in JavaScript?",
+        "option1" : "3",
+        "option2" :"\"3\"",
+        "option3" : "\"12\"",
+        "option4" : "12",
+        "ans" : 3
+    },
+    {
+        "id" : 6,
+        "Question" : "What does JSON stand for in JavaScript?",
+        "option1" : "JavaScript Object Notation",
+        "option2" :"JavaScript Object Network",
+        "option3" : "JavaScript Object Navigator",
+        "option4" : "JavaScript Oriented Notation",
+        "ans" : 1
+    },
+    {
+        "id" : 7,
+        "Question" : "Which method is used to add an element to the end of an array in JavaScript?",
+        "option1" : "push()",
+        "option2" :"add()",
+        "option3" : "append()",
+        "option4" : "insert()",
+        "ans" : 1
+    },
+    {
+        "id" : 8,
+        "Question" : "What is the purpose of the this keyword in JavaScript?",
+        "option1" : " It refers to the current function",
+        "option2" :"It refers to the global object",
+        "option3" : "It refers to the current object",
+        "option4" : "It refers to the parent object",
+        "ans" : 3
+    },
+    {
+        "id" : 9,
+        "Question" : "What is a closure in JavaScript?",
+        "option1" : "It's a way to organize code into separate files",
+        "option2" :"It's a way to prevent access to certain variables",
+        "option3" : "It's a combination of a function and the lexical environment within which that function was declared ",
+        "option4" : "It's a data structure used to store key-value pairs",
+        "ans" : 3
+    },
+    {
+        "id" : 10,
+        "Question" : "Which method is used to remove the last element from an array in JavaScript?",
+        "option1" : "pop()",
+        "option2" :"remove()",
+        "option3" : "delete()",
+        "option4" : "shift()",
+        "ans" : 1
+    },
+    {
+        "id" : 11,
+        "Question" : "What is the purpose of the \"map()\" function in JavaScript?",
+        "option1" : "To create a new array with the results of calling a provided function on every element in the calling array",
+        "option2" :"To remove elements from an array based on a condition",
+        "option3" : "To add elements to the end of an array",
+        "option4" : "To sort the elements of an array",
+        "ans" : 1
+    },
+    {
+        "id" : 12,
+        "Question" : "What is the result of `typeof NaN` in JavaScript?",
+        "option1" : "\"number\"",
+        "option2" :"\"NaN\"",
+        "option3" : "\"undefined\"",
+        "option4" : "\"null\"",
+        "ans" : 1
+    },
+    {
+        "id" : 13,
+        "Question" : "What does the \"Promise\" object represent in JavaScript?",
+        "option1" : "A value that may not be available yet",
+        "option2" :"A placeholder for a future value",
+        "option3" : "A proxy for a value not necessarily known when the promise is created",
+        "option4" : " All of the above",
+        "ans" : 3
+    },
+    {
+        "id" : 14,
+        "Question" : "Which function is used to parse a JSON string in JavaScript?",
+        "option1" : "JSON.parse()",
+        "option2" :"JSON.stringify()",
+        "option3" : "JSON.parseString()",
+        "option4" : "JSON.decode()",
+        "ans" : 1
+    },
+    {
+        "id" : 15,
+        "Question" : "What is the purpose of the `fetch()` function in JavaScript?",
+        "option1" : "To send HTTP requests and retrieve data from a server",
+        "option2" :"To update the DOM with new content",
+        "option3" : "To create animations on a web page",
+        "option4" : "To validate user input in forms",
+        "ans" : 1
+    },
+    {
+        "id" : 16,
+        "Question" : "What does the `localStorage` object in JavaScript do?",
+        "option1" : "Stores data with no expiration date",
+        "option2" :"Stores data for the duration of the page session",
+        "option3" : "Stores data in a server-side database",
+        "option4" : "Stores data in cookies",
+        "ans" : 1
+    },
+    {
+        "id" : 17,
+        "Question" : "Which method is used to add a CSS class to an element in JavaScript?",
+        "option1" : "addClass()",
+        "option2" :"addStyle()",
+        "option3" : "appendClass()",
+        "option4" : "classList.add()",
+        "ans" : 4
+    },
+    {
+        "id" : 18,
+        "Question" : "What is the purpose of the \"event.preventDefault()\" method in JavaScript?",
+        "option1" : "To stop the propagation of an event",
+        "option2" :"To prevent the default action of an event from occurring",
+        "option3" : "To delay the execution of an event handler",
+        "option4" : "To remove an event listener from an elemen",
+        "ans" : 2
+    },
+    {
+        "id" : 19,
+        "Question" : "What is the output of `console.log(typeof [])` in JavaScript?",
+        "option1" : "\"array\"",
+        "option2" :"\"object\" ",
+        "option3" : "\"array[]\"",
+        "option4" : "\"undefined\"",
+        "ans" : 2
+    },
+    {
+        "id" : 20,
+        "Question" : "Which method is used to concatenate two or more arrays in JavaScript?",
+        "option1" : "concat()",
+        "option2" :"join()",
+        "option3" : "merge()",
+        "option4" : "append()",
+        "ans" : 1
+    },
+    {
+        "id" : 21,
+        "Question" : "What does the `indexOf()` method return if the element is not found in the array in JavaScript?",
+        "option1" : "0",
+        "option2" :"-1",
+        "option3" : "null",
+        "option4" : "undefined",
+        "ans" : 2
+    },
+    {
+        "id" : 22,
+        "Question" : "What is the purpose of the Object.keys() method in JavaScript?",
+        "option1" : "To return the number of properties in an object",
+        "option2" :"o check if a property exists in an object",
+        "option3" : "To return an array of a given object's own enumerable property names",
+        "option4" : "To return the values of an object's properties",
+        "ans" : 3
+    },
+    {
+        "id" : 23,
+        "Question" : "What is the purpose of the `addEventListener()` method in JavaScript?",
+        "option1" : "To attach an event handler to an element",
+        "option2" :"To remove an event listener from an element",
+        "option3" : "To trigger an event on an element",
+        "option4" : "To check if an event has occurred on an element",
+        "ans" : 1
+    },
+    {
+        "id" : 24,
+        "Question" : "Which method is used to convert a string to uppercase in JavaScript?",
+        "option1" : "upperCase()",
+        "option2" :"toUpper()",
+        "option3" : "toUpperCaseString()",
+        "option4" : "toUpperCase()",
+        "ans" : 4
+    },
+    {
+        "id" : 25,
+        "Question" : "What is the purpose of the `setTimeout()` function in JavaScript?",
+        "option1" : "To set a timer for an event to occur",
+        "option2" :"To execute a function after a specified delay",
+        "option3" : "To stop the execution of a function",
+        "option4" : "To repeat the execution of a function at regular intervals",
+        "ans" : 2
+    },
+    {
+        "id" : 26,
+        "Question" : "What is the purpose of the `Array.isArray()` method in JavaScript?",
+        "option1" : "To create a new array",
+        "option2" :"To concatenate two arrays",
+        "option3" : "To remove elements from an array",
+        "option4" : "To check if a variable is an array",
+        "ans" : 4
+    },
+    {
+        "id" : 27,
+        "Question" : "What is the difference between `==`and`===`in JavaScript?",
+        "option1" : "`==` checks for equality of value only,`===`checks for equality of value and type",
+        "option2" :"They are the same",
+        "option3" : "`==`is used for assignment, `===` is used for comparison",
+        "option4" : "`==` is for numbers, `===` is for strings",
+        "ans" : 1
+    },
+    {
+        "id" : 28,
+        "Question" : "Which method is used to remove the first element from an array in JavaScript?",
+        "option1" : "shift()",
+        "option2" :"unshift()",
+        "option3" : "remove()",
+        "option4" : "pop()",
+        "ans" : 1
+    },
+    {
+        "id" : 29,
+        "Question" : "What does the `continue` statement do in JavaScript?",
+        "option1" : "It exits the loop immediately",
+        "option2" :"It exits the loop immediately",
+        "option3" : "It stops the execution of a loop and continues with the next iteration ",
+        "option4" : "It skips the current iteration of a loop",
+        "ans" : 3
+    },
+    {
+        "id" : 30,
+        "Question" : "What is the purpose of the `NaN` property in JavaScript?",
+        "option1" : "To convert a string to a number",
+        "option2" :"To round a number to the nearest integer",
+        "option3" : "To represent infinity in JavaScript",
+        "option4" : "To check if a number is not a number",
+        "ans" : 4
+    }
+]

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* end of common style */
+
+
+/* Quiz Conteinar  */
+.quiz-conteinar{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteinar{
+  max-width: auto;
+  width:100vh;
+  max-width: 35rem;
+  padding: 1rem;
+  height: 90vh;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.6rem #8080803b,-0.1rem -0.1rem 0.6rem #8080802d;
+  position: relative;
+}
+
+.quiz-navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  border-bottom: 0.2rem solid #000;
+}
+.quiz-conteinar .conteinar .quiz-navbar .quiz-heading{
+  margin: 1rem 0;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+.quiz-conteinar .conteinar .quiz-navbar .quiz-heading span{
+  color: tomato;
+}
+
+.quiz-conteinar .conteinar .quiz-navbar div span{
+  background-color: black;
+  padding: 0.18rem 0.7rem;
+  margin: 0 0.4rem;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 1.44rem;
+}
+
+
+.quiz-conteinar .conteinar .quiz_body h1{
+  font-size: 1.9rem;
+  margin: 1rem 0;
+  padding-bottom: 0.8rem;
+}
+.quiz-conteinar .conteinar .quiz_body .QUIZ-liST li{
+  font-family: sans-serif;
+  font-size: 2rem;
+  list-style-type: none;
+  padding:0.5rem 0.8rem;
+  border: 0.15rem solid #000;
+  margin: 1rem 0;
+  user-select: none;
+  cursor: pointer;
+  line-height: 1.9rem;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  padding: 0.4rem;
+}
+.quiz-conteinar .conteinar .quiz_body .QUIZ-liST li.active{
+  border: 0.15rem solid rgb(34, 247, 34);
+  color: rgb(36, 170, 9);
+  background-color: rgba(33, 248, 33, 0.048);
+}
+.quiz-conteinar .conteinar .quiz_body .QUIZ-liST li.wrong{
+  border: 0.15rem solid crimson;
+  background-color: rgba(255, 0, 0, 0.082);
+  color: red;
+}
+
+
+.footer{
+  width: 100%;
+  height:6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer button{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  background-color: rgb(37, 252, 119);
+  padding: 1rem 1.8rem;
+  color: #000;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+/* end of Conteinar  */
+
+
+/* SubmitedSection  */
+.SubmitedSection{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submited-img{
+  width: 100%;
+  padding: 2rem 7rem;  
+  padding-top: 7rem;
+}
+
+.submited-img img{
+  width: 100%;
+  padding: 2rem;
+}
+.conteinar .SubmitedSection h1{
+  
+  font-size: 2.6rem;
+  width: 70%;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 3rem;
+  font-family: sans-serif;
+}
+
+  .conteinar .SubmitedSection h3{
+    font-size:2rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin:0.2rem 0;
+  }
+.SubmitedSection button{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  background-color: rgb(37, 252, 119);
+  padding: 1rem 1.8rem;
+  color: #000;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 200;
+  cursor: pointer;
+  margin-top: 2rem;
+}
